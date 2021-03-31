@@ -5,5 +5,5 @@ minetest.register_craftitem("mc:warped_fungus_stick", {
 minetest.register_craft({
     type = "shapeless",
     output = "mc:warped_fungus_stick",
-    recipe = {"mcl_fishing:fishing_rod", "mc:warped_fungus"}
+    recipe = {"mcl_fishing:fishing_rod", "mcl_mushroom:warped_fungus"}
 })
