@@ -6,5 +6,5 @@ minetest.register_decoration({
       biomes = {"Taiga","Forest"},
       y_max = mcl_vars.mg_overworld_max,
       y_min = mcl_vars.mg_overworld_min,
-      decoration = "mc:sweet_berry_bush_2"
+      decoration = "mc_sweet_berry:sweet_berry_bush_2"
 })
