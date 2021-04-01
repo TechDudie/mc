@@ -31,6 +31,8 @@ Tridents: mc_tridents
 Ancient Debris: mc_netherite
 Netherite Scrap: mc_netherite
 Block of Netherite: mc_netherite (improvement)
+Bamboo (all stages of growth and inventory image): mc_bamboo
+Scaffolding: mc_scaffolding
 
 ## Models
 
@@ -42,7 +44,7 @@ Tridents: mc_tridents
 
 # TODO List:
 
-* Bamboo
+* Bamboo and Scaffolding
 * Sweet Berries and Foxes
 * New structures
 * Nether Biomes
