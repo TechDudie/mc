@@ -37,7 +37,7 @@ I'm not *too* picky about code, but if the code is extremly messy, i will clean 
 
 ### Code needed:
 
-Tridents: mc_tridents
+* Tridents: mc_tridents
 
 ## Textures
 
@@ -45,12 +45,12 @@ I'd like for the textures to be as close to Minecraft's textures as possible.
 
 ### Textures needed:
 
-Tridents: mc_tridents
-Ancient Debris: mc_netherite
-Netherite Scrap: mc_netherite
-Block of Netherite: mc_netherite (improvement)
-Bamboo (all stages of growth and inventory image): mc_bamboo
-Scaffolding: mc_scaffolding
+* Tridents: mc_tridents
+* Ancient Debris: mc_netherite
+* Netherite Scrap: mc_netherite
+* Block of Netherite: mc_netherite (improvement)
+* Bamboo (all stages of growth and inventory image): mc_bamboo
+* Scaffolding: mc_scaffolding
 
 ## Models
 
@@ -58,7 +58,7 @@ I dont plan on making the models for mobs myself, epCode is doing it in his repo
 
 ### Models needed:
 
-Tridents: mc_tridents
+* Tridents: mc_tridents
 
 # TODO List:
 
