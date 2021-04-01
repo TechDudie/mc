@@ -116,11 +116,11 @@ local strider = {
 		local wielditem = clicker:get_wielded_item()
 
 		local controlitem = ""
-		if minetest.get_modpath("mc") then
-            controlitem = "mc:warped_fungus_stick"
-        else
-            controlitem = mobs_mc.items.carrot_on_a_stick
-        end
+		if minetest.get_modpath("mc_warped_fungus_stick") then
+                    controlitem = "mc_warped_fungus_stick:warped_fungus_stick"
+                else
+                    controlitem = mobs_mc.items.carrot_on_a_stick
+                end
 		if wielditem:get_name() ~= controlitem then
 			if mobs:feed_tame(self, clicker, 1, true, true) then return end
 		end
