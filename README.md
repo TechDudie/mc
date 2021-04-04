@@ -49,7 +49,6 @@ I'd like for the textures to be as close to Minecraft's textures as possible.
 * Ancient Debris: mc_netherite
 * Netherite Scrap: mc_netherite
 * Block of Netherite: mc_netherite (improvement)
-* Bamboo (all stages of growth and inventory image): mc_bamboo
 * Scaffolding: mc_scaffolding
 
 ## Models
