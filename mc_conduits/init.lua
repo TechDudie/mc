@@ -27,3 +27,11 @@ minetest.register_abm({
         effect(pos)
     end
 })
+minetest.register_craft({
+    output = "mc_conduits:conduit",
+    recipe = {
+        {"mc_ocean:shell", "mc_ocean:shell", "mc_ocean:shell"},
+        {"mc_ocean:shell", "mc_ocean:heart", "mc_ocean:shell"},
+        {"mc_ocean:shell", "mc_ocean:shell", "mc_ocean:shell"}
+    }
+})
