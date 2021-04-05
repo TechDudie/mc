@@ -18,6 +18,9 @@ mc is a minetest modpack for the game MineClone2. The goal is to turn it into Mi
 * Sweet Berries
 * Fungus on a Stick
 * Bamboo
+* Conduits (textures needed)
+* Heart of the Sea (textures needed and unobtainable at the moment)
+* Nautilus Shell (textures needed and unobtainable at the moment)
 
 # In Progess:
 
@@ -37,7 +40,7 @@ I'm not *too* picky about code, but if the code is extremly messy, i will clean 
 
 ### Code needed:
 
-* Tridents: mc_tridents
+* Tridents: mc_tridents (Minetest-j45)
 
 ## Textures
 
@@ -50,6 +53,9 @@ I'd like for the textures to be as close to Minecraft's textures as possible.
 * Netherite Scrap: mc_netherite
 * Block of Netherite: mc_netherite (improvement)
 * Scaffolding: mc_scaffolding
+* Conduits: mc_conduits (after this done entirely)
+* Heart of the Sea: mc_ocean (after this done entirely)
+* Nautilus Shell: mc_ocean (after this done entirely)
 
 ## Models
 
@@ -57,11 +63,10 @@ I dont plan on making the models for mobs myself, epCode is doing it in his repo
 
 ### Models needed:
 
-* Tridents: mc_tridents
+* None at the moment
 
 # TODO List:
 
-* Sweet Berries and Foxes
+* Sweet Berries and Foxes (done, just have to update)
 * New structures
-* Nether Biomes
 * ...
