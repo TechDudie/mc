@@ -67,6 +67,6 @@ I dont plan on making the models for mobs myself, epCode is doing it in his repo
 
 # TODO List:
 
-* Sweet Berries and Foxes (done, just have to update)
 * New structures
+* Honey (waiting on epCode to make bees)
 * ...
