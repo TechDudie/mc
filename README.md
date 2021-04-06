@@ -1,6 +1,9 @@
 # mc
 mc is a minetest modpack for the game MineClone2. The goal is to turn it into Minecraft 1.16.
 
+# Installing
+Download the latest *minor* version (I only test myself and fix all bugs before I release a minor version), unzip it, copy it to the mods folder, and rename the folder to 'mc'. Then, enable the modpack in the chosen world.
+
 # Credits
 
 * Nether gold ore (NO11)
@@ -8,6 +11,7 @@ mc is a minetest modpack for the game MineClone2. The goal is to turn it into Mi
 * Bubble Columns (Minetest-j45)
 * Nether Mushrooms (debiankaios)
 * Blackstone (debian044)
+* Crash reports and a few textures (pl608)
 
 # Done:
 
@@ -18,9 +22,9 @@ mc is a minetest modpack for the game MineClone2. The goal is to turn it into Mi
 * Sweet Berries
 * Fungus on a Stick
 * Bamboo
-* Conduits (textures needed)
-* Heart of the Sea (textures needed and unobtainable at the moment)
-* Nautilus Shell (textures needed and unobtainable at the moment)
+* Conduits
+* Heart of the Sea (unobtainable at the moment)
+* Nautilus Shell (unobtainable at the moment)
 
 # In Progess:
 
@@ -53,9 +57,6 @@ I'd like for the textures to be as close to Minecraft's textures as possible.
 * Netherite Scrap: mc_netherite
 * Block of Netherite: mc_netherite (improvement)
 * Scaffolding: mc_scaffolding
-* Conduits: mc_conduits (after this done entirely)
-* Heart of the Sea: mc_ocean (after this done entirely)
-* Nautilus Shell: mc_ocean (after this done entirely)
 
 ## Models
 
