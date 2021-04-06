@@ -3,13 +3,13 @@ minetest.register_node("mc:conduit", {
     description = "Conduit",
     tiles = {"conduit.png"}
 })
-minetest.register_node("mc:conduit_active", {
+minetest.register_node("mc_conduits:conduit_active", {
     description = "Active Conduit",
     tiles = {"conduit.png"}
 })
 minetest.register_abm({
-    nodenames = {"mc_conduit:conduit"},
-    neighbors = {"default:water_source"},
+    nodenames = {"mc_conduits:conduits"},
+    neighbors = {"mcl_core:water_source"},
     interval = 1,
     chance = 1,
     action = function(pos, node, active_object_count, active_object_count_wider)
@@ -19,8 +19,8 @@ minetest.register_abm({
     end
 })
 minetest.register_abm({
-    nodenames = {"mc_conduit:conduit_active"},
-    neighbors = {"default:water_source"},
+    nodenames = {"mc_conduits:conduit_active"},
+    neighbors = {"mcl_core:water_source"},
     interval = 1,
     chance = 1,
     action = function(pos, node, active_object_count, active_object_count_wider)
