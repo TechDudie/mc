@@ -1,4 +1,4 @@
-local S = minetest.get_translator("mcl_anvils")
+local S = minetest.get_translator("mc_smithing")
 
 local MAX_NAME_LENGTH = 35
 local MAX_WEAR = 65535
@@ -508,31 +508,31 @@ anvildef2.groups.anvil = 3
 anvildef2._doc_items_create_entry = false
 anvildef2.tiles = {"mcl_anvils_anvil_top_damaged_2.png^[transformR90", "mcl_anvils_anvil_base.png", "mcl_anvils_anvil_side.png"}
 
-minetest.register_node("mcl_anvils:anvil", anvildef0)
-minetest.register_node("mcl_anvils:anvil_damage_1", anvildef1)
-minetest.register_node("mcl_anvils:anvil_damage_2", anvildef2)
+minetest.register_node("mc_smithing:anvil", anvildef0)
+minetest.register_node("mc_smithing:anvil_damage_1", anvildef1)
+minetest.register_node("mc_smithing:anvil_damage_2", anvildef2)
 
 if minetest.get_modpath("mcl_core") then
 	minetest.register_craft({
-		output = "mcl_anvils:anvil",
+		output = "mc_smithing:anvil",
 		recipe = {
-			{ "mcl_core:ironblock", "mcl_core:ironblock", "mcl_core:ironblock" },
-			{ "", "mcl_core:iron_ingot", "" },
-			{ "mcl_core:iron_ingot", "mcl_core:iron_ingot", "mcl_core:iron_ingot" },
+			{"mcl_core:iron_ingot", "mcl_core:iron_ingot"},
+			{"mcl_core:wood", "mcl_core:wood},
+			{"mcl_core:wood", "mcl_core:wood"},
 		}
 	})
 end
 
 if minetest.get_modpath("doc") then
-	doc.add_entry_alias("nodes", "mcl_anvils:anvil", "nodes", "mcl_anvils:anvil_damage_1")
-	doc.add_entry_alias("nodes", "mcl_anvils:anvil", "nodes", "mcl_anvils:anvil_damage_2")
+	doc.add_entry_alias("nodes", "mc_smithing:anvil", "nodes", "mc_smithing:anvil_damage_1")
+	doc.add_entry_alias("nodes", "mc_smithing:anvil", "nodes", "mc_smithing:anvil_damage_2")
 end
 
 -- Legacy
 minetest.register_lbm({
 	label = "Update anvil formspecs (0.60.0)",
 	name = "mcl_anvils:update_formspec_0_60_0",
-	nodenames = { "group:anvil" },
+	nodenames = {"group:anvil"},
 	run_at_every_load = false,
 	action = function(pos, node)
 		local meta = minetest.get_meta(pos)
