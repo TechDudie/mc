@@ -5,7 +5,7 @@ mc is a minetest modpack for the game MineClone2. The goal is to turn it into Mi
 Download the latest *minor* version (I only test myself and fix all bugs before I release a minor version), unzip it, copy it to the mods folder, and rename the folder to ```mc```. Then, enable the modpack in the chosen world.
 
 # Notes:
-* [#4](https://github.com/TechDudie/mc/issues/14)
+* [#14](https://github.com/TechDudie/mc/issues/14)
 
 # Credits
 
