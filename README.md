@@ -12,6 +12,7 @@ Download the latest *minor* version (I only test myself and fix all bugs before 
 * Nether Mushrooms (debiankaios)
 * Blackstone (debian044)
 * Crash reports and a few textures (pl608)
+* Smithing Tables (copied from mcl_anvils by Wuzzy and edited by me)
 
 # Done:
 
