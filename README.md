@@ -69,5 +69,6 @@ I dont plan on making the models for mobs myself, epCode is doing it in his repo
 # TODO List:
 
 * New structures
+* Netherite
 * Honey (waiting on epCode to make bees)
 * ...
